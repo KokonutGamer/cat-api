@@ -7,6 +7,12 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.*;
 
+/* 
+ * name as string
+ * breed as an enum
+ * age in years
+ * weight in kg
+ */
 @Entity
 @Data
 @NoArgsConstructor
@@ -17,5 +23,4 @@ public class Cat {
     @NonNull private Breed breed;
     @NonNull private Integer age;
     @NonNull private Integer weight;
-
 }
