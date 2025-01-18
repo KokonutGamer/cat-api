@@ -43,6 +43,13 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- HATEOAS (HTTP As The Engine Of Application State) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+		</dependency>
+
+
 		<!-- Lombok reduces boilerplate - not necessary but helps with readability -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
